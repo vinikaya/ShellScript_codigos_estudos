@@ -1,0 +1,2 @@
+Faithless
+Esse diretorio e o texto a cima foi criado com o comando 'echo 'Faithless' > musicas-favoritas.txt' 
