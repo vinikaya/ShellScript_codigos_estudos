@@ -12,4 +12,5 @@ then
 mail -s "Consumo de memoria acima do limite" viniciuskaya87@gmail.com<<del 
 O consumo de memoria está acima do limite especificado. Atualmente o comsumo é de: $(free -h | grep -i mem | awk '{ print $3 }')
 del
-fi
+fi  # para enviar email utilizando o ssmtp e mailutil deve habilitar no email na parte de duas etapas, senhas de apps e configurar uma senha, essa senha pulará a verificação de duas etapas do google e então o ssmtp podera usar seu email para fazer o envio.
+
